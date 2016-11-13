@@ -5,3 +5,9 @@ Style commandments
 ===
 
 - **snake_case** is the one and only real case for everything but **CamelCase** classes
+
+Compiled things
+===
+
+### Mining
+*arbitrary box*: vj0m7TvJ
