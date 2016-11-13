@@ -10,4 +10,4 @@ Compiled things
 ===
 
 ### Mining
-*arbitrary box*: iixyRDFX
+*arbitrary box*: X3MSgMpR
