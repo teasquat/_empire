@@ -1,3 +1,4 @@
+--http://pastebin.com/x5QqA7jJ
 -- Unedited version of Turtle Self-tracking System created by Latias1290.
 -- http://www.computercraft.info/wiki/Turtle_GPS_self-tracker_expansion_%28tutorial%29
 
