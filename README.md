@@ -10,4 +10,4 @@ Compiled things
 ===
 
 ### Mining
-*arbitrary box*: vj0m7TvJ
+*arbitrary box*: srX1Jb3S
