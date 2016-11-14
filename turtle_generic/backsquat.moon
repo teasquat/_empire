@@ -7,7 +7,7 @@ set_location = -> -- get gps using other computers
   cal = true
 
 
-man_set_location = number x, number y, number z -> -- manually set location
+man_set_location = (number x, number y, number z) -> -- manually set location
   x_pos = x
   y_pos = y
   z_pos = z
@@ -46,37 +46,39 @@ turn_right = -> -- turn right
 
 
 
-forward = -> -- go forward
-  turtle.forward!
-  if cal == true
-    if face == 0
-      z_pos = z_pos - 1
-    elseif face == 1
-      x_pos = x_pos - 1
-    elseif face == 2
-      z_pos = z_pos + 1
-    elseif face == 3
-      x_pos = x_pos + 1
+forward = (number n = 1) -> -- go forward
+  for i=1, n
+    turtle.forward!
+    if cal == true
+      if face == 0
+        z_pos = z_pos - 1
+      elseif face == 1
+        x_pos = x_pos - 1
+      elseif face == 2
+        z_pos = z_pos + 1
+      elseif face == 3
+        x_pos = x_pos + 1
 
-  else
-    print("Not Calibrated.")
+    else
+      print("Not Calibrated.")
 
 
 
-back = -> -- go back
-  turtle.back!
-  if cal == true
-    if face == 0
-      z_pos = z_pos + 1
-    elseif face == 1
-      x_pos = x_pos + 1
-    elseif face == 2
-      z_pos = z_pos - 1
-    elseif face == 2
-      x_pos = x_pos - 1
+back = (number n = 1) -> -- go back
+  for i=1, n
+    turtle.back!
+    if cal == true
+      if face == 0
+        z_pos = z_pos + 1
+      elseif face == 1
+        x_pos = x_pos + 1
+      elseif face == 2
+        z_pos = z_pos - 1
+      elseif face == 2
+        x_pos = x_pos - 1
 
-  else
-    print("Not Calibrated.")
+    else
+      print("Not Calibrated.")
 
 
 
