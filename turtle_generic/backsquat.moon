@@ -48,8 +48,8 @@ turn_right = -> -- turn right
 
 forward = (number n = 1) -> -- go forward
   for i=1, n
-    turtle.forward!
-    if cal == true
+    bool = turtle.forward!
+    if cal == true and bool
       if face == 0
         z_pos = z_pos - 1
       elseif face == 1
@@ -66,8 +66,8 @@ forward = (number n = 1) -> -- go forward
 
 back = (number n = 1) -> -- go back
   for i=1, n
-    turtle.back!
-    if cal == true
+    bool = turtle.back!
+    if cal == true and bool
       if face == 0
         z_pos = z_pos + 1
       elseif face == 1
@@ -83,8 +83,8 @@ back = (number n = 1) -> -- go back
 
 
 up = -> -- go up
-  turtle.up!
-  if cal == true
+  bool = turtle.up!
+  if cal == true and bool
     y_pos = y_pos + 1
   else
     print("Not Calibrated.")
@@ -92,8 +92,8 @@ up = -> -- go up
 
 
 down = -> -- go down
-  turtle.down!
-  if cal == true
+  bool = turtle.down!
+  if cal == true and bool
     y_pos = y_pos - 1
   else
     print("Not Calibrated.")
