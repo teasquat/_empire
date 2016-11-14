@@ -12,6 +12,9 @@ Compiled things
 ### Mining
 *arbitrary box*: X3MSgMpR
 
+### Farming
+*wheat* : RTjuMFVw
+
 ### Generic Turtles
-*Self-tracking movement*: http://pastebin.com/x5QqA7jJ
+*Self-tracking movement*: x5QqA7jJ
 Remember to register position before moving, or the console will be flooded with message "Not Calibrated"
